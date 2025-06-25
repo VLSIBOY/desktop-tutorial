@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中山和樹 | ホームページ</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+        margin: 0;
+        line-height: 1.7;
+        color: #333;
+        background: #f8f9fa;
+      }
+      header {
+        background: #0d6efd;
+        color: #fff;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      nav {
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        margin: 0 1rem;
+      }
+      nav a {
+        display: block;
+        padding: 1rem 0;
+        color: #0d6efd;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      main {
+        max-width: 960px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      section {
+        margin-bottom: 3rem;
+        background: #fff;
+        padding: 2rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      }
+      section h2 {
+        margin-top: 0;
+        border-left: 6px solid #0d6efd;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        background: #343a40;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>中山和樹 | 個人サイト</h1>
+      <p>CMOSアナログ回路を研究する電子工学専攻の学生である</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#profile">プロフィール</a></li>
+        <li><a href="#education">学歴・経歴</a></li>
+        <li><a href="#research">研究テーマ</a></li>
+        <li><a href="#activities">課外活動</a></li>
+        <li><a href="#contact">連絡先</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="profile">
+        <h2>プロフィール</h2>
+        <p>
+          愛知県知多郡東浦町で生まれ育った。現在は日本大学理工学部電子工学科に在学し、千葉県船橋市で一人暮らしをしながら学業と研究に励んでいる。専門はCMOSアナログ回路であり、低消費電力設計に関心を持つ。
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>学歴・経歴</h2>
+        <ul>
+          <li>保育園・小学校・中学校: 愛知県知多郡東浦町で過ごす</li>
+          <li>高等学校: 半田市の高校に通学</li>
+          <li>大学: 日本大学理工学部電子工学科 (船橋キャンパス)</li>
+        </ul>
+      </section>
+
+      <section id="research">
+        <h2>研究テーマ</h2>
+        <p>
+          現在、CMOSプロセスを用いてアナログ回路の省電力化と高性能化を目指した設計研究を行っている。
+        </p>
+      </section>
+
+      <section id="activities">
+        <h2>課外活動</h2>
+        <ul>
+          <li>小学校: 少年野球チームおよび課外バスケットボールクラブに所属</li>
+          <li>中学校: バスケットボール部</li>
+          <li>高校: バスケットボール部</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>連絡先</h2>
+        <p>メール: example@example.com</p>
+        <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Kazuki Nakayama</p>
+    </footer>
+  </body>
+</html>
